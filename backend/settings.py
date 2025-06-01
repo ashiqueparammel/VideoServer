@@ -61,7 +61,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://videocall-app-kappa.vercel.app",
+    "https://videocall.conqod.site/",
     "http://localhost:5173",  # Explicitly list allowed origins
     "http://localhost:5174",  # Explicitly list allowed origins
 ]
