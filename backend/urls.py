@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/webrtc/', include('signaling.urls')),
+    path('api/transcribe/', include('transcribe.urls')),
 ]
