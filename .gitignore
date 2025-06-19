@@ -1,1 +1,21 @@
 venv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django media and temp folders
+temp/
+media/
+uploads/
+
+# VSCode settings (optional)
+.vscode/
+
+# Environment variables / settings
+.env
+
+# Node or frontend builds (optional if using React together)
+node_modules/
+build/
+dist/
